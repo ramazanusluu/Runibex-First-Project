@@ -14,3 +14,17 @@ document.getElementById("btn-close").addEventListener("click", function () {
   objOffcanvas.hide();
 });
 //Mobil ekranlarda search işlemi için kullanılacak olan modal kutusunun kontrolü
+const modalDOM = document.getElementById("exampleModal");
+const objModal = new bootstrap.Modal(modalDOM, {
+  backdrop: true,
+  keyboard: true,
+  focus: true,
+});
+document.getElementById("btn-search").addEventListener("click", function () {
+  objModal.show();
+});
+document
+  .getElementById("btn-modal-hide")
+  .addEventListener("click", function () {
+    objModal.hide();
+  });
