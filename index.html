@@ -10,7 +10,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg fw-semibold">
+      <nav class="navbar navbar-expand-xl fw-semibold">
         <div class="container">
           <a class="navbar-brand" href="#">
             <img
@@ -31,38 +31,38 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link" href="#">Kampanyalar</a>
+                <a class="nav-link header-text" href="#">Kampanyalar</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Vestel.com.tr Farkı</a>
+                <a class="nav-link header-text" href="#">Vestel.com.tr Farkı</a>
               </li>
             </ul>
             <div>
-              <div class="input-group">
+              <div class="input-group d-none d-xl-flex">
                 <input
                   type="text"
-                  class="form-control"
+                  class="form-control search"
                   placeholder="Ürün, kategori, servis, mağaza ara"
                 />
-                <button class="btn btn-light input-group-text">
+                <button class="btn btn-light buton input-group-text">
                   <i class="fa-solid fa-magnifying-glass"></i>
                 </button>
               </div>
             </div>
-            <div class="ms-4">
+            <div class="ms-4 d-none d-xl-block">
               <i class="fa-regular fa-user"></i>
             </div>
-            <div class="uye ms-4">
+            <div class="uye-bilgi ms-4 d-none d-xl-block">
               <h6>Ramazan USLU</h6>
               <span class="text-danger"
                 >Hesabım <i class="fa-solid fa-angle-down"></i
               ></span>
             </div>
-            <div class="ms-4">
+            <div class="ms-4 d-none d-xl-block">
               <div class="position-relative">
                 <i class="fa-solid fa-basket-shopping"></i>
                 <span
-                  class="text-size position-absolute top-100 start-100 translate-middle badge rounded-pill bg-warning rounded-circle"
+                  class="header-text position-absolute top-100 start-100 translate-middle badge rounded-pill bg-warning rounded-circle"
                 >
                   3
                 </span>
@@ -72,6 +72,42 @@
         </div>
       </nav>
     </header>
+    <div id="menu-bar">
+      <nav class="bg-danger d-none d-xl-block">
+        <div class="container">
+          <div class="row">
+            <div class="col-xl-12">
+              <ul class="nav justify-content-center">
+                <li class="nav-item menu-item">
+                  <a class="nav-link menu-link" href="#">Tv - Ses</a>
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link menu-link" href="#">Beyaz Eşya</a>
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link menu-link" href="#">Ankastre</a>
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link menu-link" href="#">Küçük Ev Aletleri</a>
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link menu-link" href="#">Isıtma - Soğutma</a>
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link menu-link" href="#">Akıllı Ürünler</a>
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link menu-link" href="#">Mobil Cihazlar</a>
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link menu-link" href="#">Diğer Ürünler</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
