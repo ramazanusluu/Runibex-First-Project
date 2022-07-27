@@ -1,6 +1,6 @@
 //Mobil ekranlarda navbardaki toggle butonu ile menüyü açma ve kapatma
 const offcanvasDOM = document.getElementById("offcanvasExample");
-var objOffcanvas = new bootstrap.Offcanvas(offcanvasDOM, {
+const objOffcanvas = new bootstrap.Offcanvas(offcanvasDOM, {
   backdrop: true,
   keyboard: true,
   scroll: false,
@@ -13,3 +13,4 @@ document
 document.getElementById("btn-close").addEventListener("click", function () {
   objOffcanvas.hide();
 });
+//Mobil ekranlarda search işlemi için kullanılacak olan modal kutusunun kontrolü

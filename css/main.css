@@ -3522,3 +3522,5 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 .accordion-body { border-left: 3px solid #df2027; }
 
 .mobile-nav-font-size { font-size: 14px; }
+
+.input-search { box-shadow: inherit !important; border: 1px solid #df2027 !important; }
