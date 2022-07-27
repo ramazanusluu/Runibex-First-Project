@@ -25,12 +25,7 @@
             <i class="fa-solid fa-magnifying-glass"></i>
           </button>
 
-          <button
-            class="navbar-toggler ms-3"
-            type="button"
-            data-bs-toggle="offcanvas"
-            data-bs-target="#offcanvasExample"
-          >
+          <button id="nav-toggle-btn" class="navbar-toggler ms-3" type="button">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -118,7 +113,6 @@
         class="offcanvas offcanvas-start"
         tabindex="-1"
         id="offcanvasExample"
-        aria-labelledby="offcanvasExampleLabel"
       >
         <div class="offcanvas-header bg-dark text-light">
           <div class="fs-3">
@@ -129,9 +123,9 @@
             <h6 class="mb-2">Hesabım</h6>
           </div>
           <button
+            id="btn-close"
             type="button"
             class="btn text-danger fs-3 me-2"
-            data-bs-dismiss="offcanvas"
           >
             <i class="fa-solid fa-xmark"></i>
           </button>
@@ -735,5 +729,6 @@
     </div>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="/js/index.js"></script>
   </body>
 </html>
