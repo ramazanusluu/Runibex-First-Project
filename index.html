@@ -12,7 +12,7 @@
     <header>
       <nav class="navbar navbar-expand-xl fw-semibold">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand me-auto" href="#">
             <img
               src="img/header-logo.png"
               alt="logo"
@@ -20,11 +20,16 @@
               title="header-logo"
             />
           </a>
+
+          <button class="btn d-xl-none d-block buton input-group-text">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+
           <button
-            class="navbar-toggler"
+            class="navbar-toggler ms-3"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasExample"
           >
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -107,6 +112,37 @@
           </div>
         </div>
       </nav>
+    </div>
+    <div id="mobil-nav">
+      <div
+        class="offcanvas offcanvas-start"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel"
+      >
+        <div class="offcanvas-header bg-dark text-light">
+          <div class="fs-3">
+            <i class="mx-4 fa-regular fa-user"></i>
+          </div>
+          <div class="ms-0 align-items-start">
+            <h3 class="fs-4 text-muted">Ramazan USLU</h3>
+            <h6 class="mb-2">Hesabım</h6>
+          </div>
+          <button
+            type="button"
+            class="btn text-danger fs-3"
+            data-bs-dismiss="offcanvas"
+          >
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            Some text as placeholder. In real life you can have the elements you
+            have chosen. Like, text, images, lists, etc.
+          </div>
+        </div>
+      </div>
     </div>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
