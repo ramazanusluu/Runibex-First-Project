@@ -66,3 +66,21 @@ h6 {
   padding: 0;
   margin: 0;
 }
+.accordion-button:not(.collapsed) {
+  color: $danger !important;
+  background-color: #fff;
+}
+.accordion-button:not(.collapsed)::after {
+  filter: brightness(0%) invert(70%);
+}
+.accordion-button:focus {
+  box-shadow: inherit;
+  border-bottom: 1px solid #ddd;
+  border-left: 3px solid $danger;
+}
+.accordion-body {
+  border-left: 3px solid $danger;
+}
+.mobile-nav-font-size {
+  font-size: 14px;
+}
