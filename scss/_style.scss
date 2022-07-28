@@ -88,3 +88,21 @@ h6 {
   box-shadow: inherit !important;
   border: 1px solid $danger !important;
 }
+#dropdown {
+  width: 100%;
+  height: 400px;
+  background-color: #f7272f;
+  display: none;
+}
+.dropdown-list {
+  color: #ddd;
+  border-bottom: 1px solid rgba($color: #ddd, $alpha: 0.3);
+}
+.dropdown-list:hover {
+  color: white;
+  border-bottom: 1px solid rgba($color: #000, $alpha: 0.3);
+}
+.list-item {
+  font-size: 12px;
+  padding-right: 15px;
+}
