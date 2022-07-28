@@ -9,6 +9,7 @@
     <title>Vestel'le Olur Neden Olmasın | Vestel</title>
   </head>
   <body>
+    <!-- Header bölümü -->
     <header>
       <nav class="navbar navbar-expand-xl fw-semibold">
         <div class="container">
@@ -75,40 +76,55 @@
         </div>
       </nav>
     </header>
+    <!-- xl ve üzeri cihazlarda yer alan menü bar bölümü  -->
     <div id="menu-bar">
       <nav class="bg-danger d-none d-xl-block">
         <div class="container">
           <div class="row">
             <div class="col-xl-12">
-              <ul class="nav justify-content-start">
-                <li class="nav-item menu-item">
-                  <a
-                    onclick="DropdownControl()"
-                    class="dropbtn nav-link menu-link"
-                    href="#"
+              <ul class="nav justify-content-center">
+                <li id="tv-ses" class="nav-item menu-item">
+                  <a id="tv-ses-btn" class="dropbtn nav-link menu-link" href="#"
                     >Tv - Ses</a
                   >
                 </li>
-                <li class="nav-item menu-item">
-                  <a class="nav-link menu-link" href="#">Beyaz Eşya</a>
+                <li id="beyaz-esya" class="nav-item menu-item">
+                  <a id="beyaz-esya-btn" class="nav-link menu-link" href="#"
+                    >Beyaz Eşya</a
+                  >
                 </li>
-                <li class="nav-item menu-item">
-                  <a class="nav-link menu-link" href="#">Ankastre</a>
+                <li id="ankastre" class="nav-item menu-item">
+                  <a id="ankastre-btn" class="nav-link menu-link" href="#"
+                    >Ankastre</a
+                  >
                 </li>
-                <li class="nav-item menu-item">
-                  <a class="nav-link menu-link" href="#">Küçük Ev Aletleri</a>
+                <li id="ev-alet" class="nav-item menu-item">
+                  <a id="ev-alet-btn" class="nav-link menu-link" href="#"
+                    >Küçük Ev Aletleri</a
+                  >
                 </li>
-                <li class="nav-item menu-item">
-                  <a class="nav-link menu-link" href="#">Isıtma - Soğutma</a>
+                <li id="isitma-sogutma" class="nav-item menu-item">
+                  <a id="isitma-sogutma-btn" class="nav-link menu-link" href="#"
+                    >Isıtma - Soğutma</a
+                  >
                 </li>
-                <li class="nav-item menu-item">
-                  <a class="nav-link menu-link" href="#">Akıllı Ürünler</a>
+                <li id="akilli-urun" class="nav-item menu-item">
+                  <a
+                    itemid="akilli-urun-btn"
+                    class="nav-link menu-link"
+                    href="#"
+                    >Akıllı Ürünler</a
+                  >
                 </li>
-                <li class="nav-item menu-item">
-                  <a class="nav-link menu-link" href="#">Mobil Cihazlar</a>
+                <li id="mobil" class="nav-item menu-item">
+                  <a id="mobil-btn" class="nav-link menu-link" href="#"
+                    >Mobil Cihazlar</a
+                  >
                 </li>
-                <li class="nav-item menu-item">
-                  <a class="nav-link menu-link" href="#">Diğer Ürünler</a>
+                <li id="diger" class="nav-item menu-item">
+                  <a id="diger-btn" class="nav-link menu-link" href="#"
+                    >Diğer Ürünler</a
+                  >
                 </li>
               </ul>
             </div>
@@ -116,6 +132,7 @@
         </div>
       </nav>
     </div>
+    <!-- Mobil cihazlar için oluşturulan navbar -->
     <div id="mobil-nav">
       <div
         class="offcanvas offcanvas-start"
@@ -735,6 +752,7 @@
         </div>
       </div>
     </div>
+    <!-- Mobil görünümde navbar üzerinde bulunan arama simgesine tıklanıldığında ekrana gelen search arama kutusu -->
     <div class="search-modal">
       <div class="modal fade" id="exampleModal" tabindex="-1">
         <div class="modal-dialog">
@@ -769,24 +787,15 @@
         </div>
       </div>
     </div>
+    <!-- xl ve üzeri cihazlarda bulunan menü için oluşturulan alt menüler -->
     <section id="myDropdown" class="dropdown-content">
       <div class="container">
         <div class="row">
-          <div class="col-sm-2">
+          <div class="col-sm-3">
             <ul class="nav flex-column">
               <li class="nav-item">
                 <a class="nav-link dropdown-list" href="#"
                   ><i class="list-item fa-solid fa-chevron-right"></i>Active</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link dropdown-list" href="#"
-                  ><i class="list-item fa-solid fa-chevron-right"></i>Link</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link dropdown-list" href="#"
-                  ><i class="list-item fa-solid fa-chevron-right"></i>Link</a
                 >
               </li>
             </ul>

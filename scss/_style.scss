@@ -1,3 +1,6 @@
+$color-hover: #f7272f;
+
+// Navbar için gerekli olan css'ler
 .search:focus {
   box-shadow: none;
   background-color: $light;
@@ -25,6 +28,8 @@ h6 {
 .navbar {
   border-bottom: 3px solid $danger !important;
 }
+
+// xl ve üzeri cihazlarda bulunan menü-bar için gerekli olan css'ler
 .menu-item,
 .menu-link {
   padding: 0;
@@ -50,7 +55,7 @@ h6 {
 
 .menu-item:hover,
 .menu-item:focus {
-  background-color: #f7272f !important;
+  background-color: $color-hover !important;
   color: white !important;
 }
 .menu-item {
@@ -58,6 +63,8 @@ h6 {
   height: 50px;
   cursor: pointer;
 }
+
+// Mobil cihazlar için offcanvas kullanılarak oluşturulan menü için gerekli css'ler
 .offcanvas-header {
   border-bottom: 2px solid $danger;
   padding: 0;
@@ -85,19 +92,23 @@ h6 {
 .mobile-nav-font-size {
   font-size: 14px;
 }
+
+// Mobil cihazlarda modal yardımıyla olusturulan search arama kutusu için gerekli olan css'ler
 .input-search {
   box-shadow: inherit !important;
   border: 1px solid $danger !important;
 }
+
+// xl ve üzeri cihazlarda bululnan menü bar için oluşturulan alt menüler için gerekli olan css'ler
 .dropdown-content {
   width: 100%;
   height: 400px;
-  background-color: #f7272f;
+  background-color: $color-hover;
   display: none;
-  overflow: auto;
+  overflow: hidden;
 }
 .dropdown-list {
-  color: #ddd;
+  color: #ddd !important;
   border-bottom: 1px solid rgba($color: #ddd, $alpha: 0.3);
 }
 .dropdown-list:hover {
@@ -109,5 +120,8 @@ h6 {
   padding-right: 15px;
 }
 .show {
-  display: block;
+  display: flex;
+}
+.active {
+  background-color: $color-hover;
 }

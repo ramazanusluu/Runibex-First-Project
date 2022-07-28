@@ -3525,12 +3525,14 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 .input-search { box-shadow: inherit !important; border: 1px solid #df2027 !important; }
 
-.dropdown-content { width: 100%; height: 400px; background-color: #f7272f; display: none; overflow: auto; }
+.dropdown-content { width: 100%; height: 400px; background-color: #f7272f; display: none; overflow: hidden; }
 
-.dropdown-list { color: #ddd; border-bottom: 1px solid rgba(221, 221, 221, 0.3); }
+.dropdown-list { color: #ddd !important; border-bottom: 1px solid rgba(221, 221, 221, 0.3); }
 
 .dropdown-list:hover { color: white; border-bottom: 1px solid rgba(0, 0, 0, 0.5); }
 
 .list-item { font-size: 12px; padding-right: 15px; }
 
-.show { display: block; }
+.show { display: flex; }
+
+.active { background-color: #f7272f; }
