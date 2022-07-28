@@ -3505,7 +3505,7 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 .menu-item a:first-child { border-left: solid 1px rgba(255, 255, 255, 0.4); }
 
-.menu-item:hover { background-color: #f7272f; color: white !important; }
+.menu-item:hover, .menu-item:focus { background-color: #f7272f !important; color: white !important; }
 
 .menu-item { display: inline-block; height: 50px; cursor: pointer; }
 
@@ -3525,10 +3525,12 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 .input-search { box-shadow: inherit !important; border: 1px solid #df2027 !important; }
 
-#dropdown { width: 100%; height: 400px; background-color: #f7272f; display: none; }
+.dropdown-content { width: 100%; height: 400px; background-color: #f7272f; display: none; overflow: auto; }
 
 .dropdown-list { color: #ddd; border-bottom: 1px solid rgba(221, 221, 221, 0.3); }
 
-.dropdown-list:hover { color: white; border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+.dropdown-list:hover { color: white; border-bottom: 1px solid rgba(0, 0, 0, 0.5); }
 
 .list-item { font-size: 12px; padding-right: 15px; }
+
+.show { display: block; }

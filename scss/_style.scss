@@ -48,8 +48,9 @@ h6 {
   border-left: solid 1px rgba(255, 255, 255, 0.4);
 }
 
-.menu-item:hover {
-  background-color: #f7272f;
+.menu-item:hover,
+.menu-item:focus {
+  background-color: #f7272f !important;
   color: white !important;
 }
 .menu-item {
@@ -88,11 +89,12 @@ h6 {
   box-shadow: inherit !important;
   border: 1px solid $danger !important;
 }
-#dropdown {
+.dropdown-content {
   width: 100%;
   height: 400px;
   background-color: #f7272f;
   display: none;
+  overflow: auto;
 }
 .dropdown-list {
   color: #ddd;
@@ -100,9 +102,12 @@ h6 {
 }
 .dropdown-list:hover {
   color: white;
-  border-bottom: 1px solid rgba($color: #000, $alpha: 0.3);
+  border-bottom: 1px solid rgba($color: #000, $alpha: 0.5);
 }
 .list-item {
   font-size: 12px;
   padding-right: 15px;
+}
+.show {
+  display: block;
 }
