@@ -110,3 +110,17 @@ digerDOM.addEventListener("mouseover", function () {
   document.getElementById("diger").classList.toggle("active");
   document.getElementById("slider").classList.toggle("no-show");
 });
+//Slider kontrolünü sağlamak için gerekli olan Javascript kodları
+const myCarousel = document.getElementById("slider");
+const carousel = new bootstrap.Carousel(myCarousel, {
+  interval: 1000,
+  keyboard: true,
+  pause: "hover",
+  touch: true,
+});
+document.getElementById("prev").addEventListener("click", function () {
+  carousel.prev();
+});
+document.getElementById("next").addEventListener("click", function () {
+  carousel.next();
+});
