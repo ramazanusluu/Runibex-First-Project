@@ -3529,7 +3529,7 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 
 .dropdown-list { color: #ddd !important; border-bottom: 1px solid rgba(221, 221, 221, 0.3); }
 
-.dropdown-list:hover { color: white !important; border-bottom: 1px solid rgba(0, 0, 0, 0.5); }
+.dropdown-list:hover { color: white !important; border-bottom: 1px solid rgba(0, 0, 0, 0.5); background-color: rgba(0, 0, 0, 0.1); }
 
 .list-item { font-size: 12px; padding-right: 15px; }
 
@@ -3538,3 +3538,5 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 .active { background-color: #f7272f; }
 
 .dropdown-section { position: relative; display: block; }
+
+.no-show { visibility: hidden; }

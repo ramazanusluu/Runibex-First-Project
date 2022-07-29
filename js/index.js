@@ -66,6 +66,7 @@ const tvSesDOM = document.getElementById("tv-ses-btn");
 tvSesDOM.addEventListener("mouseover", function () {
   document.getElementById("tv-ses-dropdown").classList.toggle("show");
   document.getElementById("tv-ses").classList.toggle("active");
+  document.getElementById("slider").classList.toggle("no-show");
 });
 const beyazEsyaDOM = document.getElementById("beyaz-esya-btn");
 beyazEsyaDOM.addEventListener("mouseover", function () {
