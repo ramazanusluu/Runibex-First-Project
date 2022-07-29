@@ -1,4 +1,6 @@
 $color-hover: #f7272f;
+$color-footer: #292929;
+$color-footer-text: rgb(197, 197, 197);
 
 // Navbar için gerekli olan css'ler
 .search:focus {
@@ -157,4 +159,25 @@ h6 {
 .btn-incele:hover {
   background-color: $color-hover;
   color: white;
+}
+//Footer için gerekli olan css'ler
+#footer-head {
+  border-bottom: 1px solid rgb(69, 69, 69);
+}
+#footer-body {
+  background-color: $color-footer;
+}
+.footer-title {
+  color: #ddd !important;
+  margin-bottom: 24px;
+}
+.footer-link {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: $color-footer-text;
+}
+.footer-link:hover {
+  color: $color-hover !important;
 }

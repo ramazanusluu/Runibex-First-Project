@@ -3548,3 +3548,13 @@ textarea.form-control-lg { min-height: calc(1.5em + 1rem + 2px); }
 .btn-incele { margin: 0; padding: 10px; border: none; background-color: white; border-bottom: 3px solid #df2027; width: 100%; margin-top: 24px; color: #df2027; font-weight: bold; }
 
 .btn-incele:hover { background-color: #f7272f; color: white; }
+
+#footer-head { border-bottom: 1px solid #454545; }
+
+#footer-body { background-color: #292929; }
+
+.footer-title { color: #ddd !important; margin-bottom: 24px; }
+
+.footer-link { margin: 0; padding: 0; font-size: 14px; margin-bottom: 12px; color: #c5c5c5; }
+
+.footer-link:hover { color: #f7272f !important; }
