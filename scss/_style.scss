@@ -135,3 +135,26 @@ h6 {
 .no-show {
   visibility: hidden;
 }
+
+// Card yapısı için gerekli olan css'ler
+.card {
+  border-radius: 0px;
+}
+.card-head {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.btn-incele {
+  margin: 0;
+  padding: 10px;
+  border: none;
+  background-color: white;
+  border-bottom: 3px solid $danger;
+  width: 100%;
+  margin-top: 24px;
+  color: $danger;
+  font-weight: bold;
+}
+.btn-incele:hover {
+  background-color: $color-hover;
+  color: white;
+}
