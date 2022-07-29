@@ -161,8 +161,8 @@ h6 {
   color: white;
 }
 //Footer için gerekli olan css'ler
-#footer-head {
-  border-bottom: 1px solid rgb(69, 69, 69);
+#footer-footer {
+  border-top: 1px solid rgb(46, 46, 46) !important;
 }
 #footer-body {
   background-color: $color-footer;
@@ -180,4 +180,24 @@ h6 {
 }
 .footer-link:hover {
   color: $color-hover !important;
+}
+
+// Scroll'un özelleştirilmesi
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 white;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $danger;
+  border-radius: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: $color-hover;
 }
