@@ -114,7 +114,7 @@ h6 {
   border-bottom: 1px solid rgba($color: #ddd, $alpha: 0.3);
 }
 .dropdown-list:hover {
-  color: white;
+  color: white !important;
   border-bottom: 1px solid rgba($color: #000, $alpha: 0.5);
 }
 .list-item {
@@ -127,7 +127,7 @@ h6 {
 .active {
   background-color: $color-hover;
 }
-.dropdown-1 {
+.dropdown-section {
   position: relative;
   display: block;
 }

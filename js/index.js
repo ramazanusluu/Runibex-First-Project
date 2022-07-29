@@ -62,10 +62,43 @@ document
 //   }
 // };
 //-------------------------------------------------------------------------------
-document
-  .getElementById("tv-ses-btn")
-  .addEventListener("mouseover", function () {
-    console.log("Tv - Ses Butonu üzerine hover olundu");
-    document.getElementById("myDropdown").classList.toggle("show");
-    document.getElementById("tv-ses").classList.toggle("active");
-  });
+const tvSesDOM = document.getElementById("tv-ses-btn");
+tvSesDOM.addEventListener("mouseover", function () {
+  document.getElementById("tv-ses-dropdown").classList.toggle("show");
+  document.getElementById("tv-ses").classList.toggle("active");
+});
+const beyazEsyaDOM = document.getElementById("beyaz-esya-btn");
+beyazEsyaDOM.addEventListener("mouseover", function () {
+  document.getElementById("beyaz-esya-dropdown").classList.toggle("show");
+  document.getElementById("beyaz-esya").classList.toggle("active");
+});
+const ankastreDOM = document.getElementById("ankastre-btn");
+ankastreDOM.addEventListener("mouseover", function () {
+  document.getElementById("ankastre-dropdown").classList.toggle("show");
+  document.getElementById("ankastre").classList.toggle("active");
+});
+const evAletDOM = document.getElementById("ev-alet-btn");
+evAletDOM.addEventListener("mouseover", function () {
+  document.getElementById("ev-alet-dropdown").classList.toggle("show");
+  document.getElementById("ev-alet").classList.toggle("active");
+});
+const isitimaSogutmaDOM = document.getElementById("isitma-sogutma-btn");
+isitimaSogutmaDOM.addEventListener("mouseover", function () {
+  document.getElementById("isitma-sogutma-dropdown").classList.toggle("show");
+  document.getElementById("isitma-sogutma").classList.toggle("active");
+});
+const akilliUrunDOM = document.getElementById("akilli-urun-btn");
+akilliUrunDOM.addEventListener("mouseover", function () {
+  document.getElementById("akilli-urun-dropdown").classList.toggle("show");
+  document.getElementById("akilli-urun").classList.toggle("active");
+});
+const mobilDOM = document.getElementById("mobil-btn");
+mobilDOM.addEventListener("mouseover", function () {
+  document.getElementById("mobil-dropdown").classList.toggle("show");
+  document.getElementById("mobil").classList.toggle("active");
+});
+const digerDOM = document.getElementById("diger-btn");
+digerDOM.addEventListener("mouseover", function () {
+  document.getElementById("diger-dropdown").classList.toggle("show");
+  document.getElementById("diger").classList.toggle("active");
+});
