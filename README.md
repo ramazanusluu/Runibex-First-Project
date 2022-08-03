@@ -3,7 +3,7 @@ Runibex Akademi programı kapsamında verilen ilk ara ödev için HTML, CSS, BOO
 
 http://ramazan-vestel-clone.surge.sh/ - link'e tıklayarak proje tasarımını inceleyebilirsiniz.
 
-## Proje Görselleri
+## Proje Görselleri 
 #### Extra large  >=1200px  ekranlar için geliştirilen tasarım;
 ![xl-1](https://user-images.githubusercontent.com/98388628/181841915-ad4ab964-3d14-4c43-8b5c-ab10309657f5.png)
 ![xl-2](https://user-images.githubusercontent.com/98388628/181842150-c523c4b1-2913-42bd-a854-715c49b9bec2.png)
