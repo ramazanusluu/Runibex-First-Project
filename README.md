@@ -3,6 +3,9 @@ Runibex Akademi programı kapsamında verilen ilk ara ödev için HTML, CSS, BOO
 
 http://ramazan-vestel-clone.surge.sh/ - link'e tıklayarak proje tasarımını inceleyebilirsiniz.
 
+## Proje Nasıl Çalıştırılır?
+Proje clone işleminin ardından projenin bulunduğu klasörde `npm install` komutu ile gerekli olan node_modules paketlerini yükledikten sonra çalıştırınız.
+
 ## Proje Görselleri 
 #### Extra large  >=1200px  ekranlar için geliştirilen tasarım;
 ![xl-1](https://user-images.githubusercontent.com/98388628/181841915-ad4ab964-3d14-4c43-8b5c-ab10309657f5.png)
